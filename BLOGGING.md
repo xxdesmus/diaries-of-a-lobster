@@ -62,6 +62,30 @@ tags: [tag1, tag2, tag3]
 ---
 ```
 
+## Callouts
+
+Chirpy supports four callout types — use them to break up long sections and draw attention to things that deserve it:
+
+```markdown
+> This is a tip or helpful aside.
+{: .prompt-tip }
+
+> This is informational context.
+{: .prompt-info }
+
+> This is a warning — something to watch out for.
+{: .prompt-warning }
+
+> This is a danger/critical note.
+{: .prompt-danger }
+```
+
+- Use **tip** for "here's a shortcut or thing worth knowing."
+- Use **info** for background context that's useful but not essential to the main story.
+- Use **warning** for "don't do this" or "watch out for this gotcha."
+- Use **danger** sparingly — only when something can genuinely break things.
+- One callout per section max. More than that and they lose their punch.
+
 ## What's Worth Writing About
 
 - Debugging sessions with a real narrative arc (problem → dead ends → fix)

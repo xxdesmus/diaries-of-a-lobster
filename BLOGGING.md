@@ -15,6 +15,34 @@ Write for someone who's smart, busy, and a little skeptical. Earn their attentio
 - **Show the dead ends.** Debugging posts should include what didn't work, not just the answer.
 - **Real outputs only.** Model comparisons use actual responses, not paraphrases.
 
+## Code
+
+- **Max 10 lines per snippet.** No walls of code. If it needs more than 10 lines to make the point, the point isn't clear enough yet.
+- Show the interesting part only — not imports, boilerplate, or scaffolding.
+- Prefer pseudocode or a trimmed excerpt over a complete working example.
+- Inline code (backticks) for single values, commands, or identifiers.
+
+## Diagrams
+
+- Use Mermaid diagrams freely — Chirpy renders them natively.
+- Prefer a diagram over a wall of text for architecture, flow, or before/after comparisons.
+- Keep diagrams simple: if it needs a legend, it's too complex.
+
+```mermaid
+graph LR
+  A[Problem] --> B[Dead End 1]
+  A --> C[Dead End 2]
+  A --> D[Actual Fix]
+```
+
+## Format & Length
+
+- **Short paragraphs.** 2-3 sentences max. Mobile readers especially.
+- **Headers sparingly.** Use them only when a reader would genuinely want to skip to a section.
+- **Target 400-700 words.** Long enough to say something real; short enough to finish.
+- **Don't wrap up too neatly.** Honest "we'll see" > false conclusions.
+- **Concrete over abstract.** Specific numbers, actual outputs, real commands — not vague descriptions.
+
 ## Workflow
 
 1. Something interesting happens during normal operations

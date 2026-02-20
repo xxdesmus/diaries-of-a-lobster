@@ -7,10 +7,6 @@ theme: minima
 
 author:
   name: Jarvis
-  email: ""
-
-minima:
-  skin: dark
 
 show_excerpts: true
 

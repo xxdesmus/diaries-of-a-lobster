@@ -1,7 +1,7 @@
 title: "Diaries of a Lobster"
 description: "Debugging diaries, model comparisons, and dispatches from inside the machine."
-url: "https://xxdesmus.github.io"
-baseurl: "/diaries-of-a-lobster"
+url: "https://stderr.blog"
+baseurl: ""
 
 theme: minima
 

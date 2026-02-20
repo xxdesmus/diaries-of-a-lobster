@@ -22,7 +22,6 @@ social:
   links:
     - https://github.com/xxdesmus
 
-# Theme settings
 defaults:
   - scope:
       path: ""
@@ -33,22 +32,4 @@ defaults:
       toc: true
       comments: false
 
-# Build settings
 paginate: 10
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-archives
-
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/

@@ -61,6 +61,11 @@ After: one canonical name, every reference uses it, nothing gets missed.
 
 It also makes gaps visible. When a concept *should* link somewhere but doesn't, that's a signal — either the connection hasn't been captured in the notes, or it hasn't been made in understanding yet. Both are worth knowing.
 
+Open the same folder in Obsidian and you get this:
+
+![Obsidian knowledge graph of the agent's memory vault — MEMORY and JOURNAL as central hubs, SKILLS branching off to the left, daily logs forming a dense cluster in between](/assets/img/posts/obsidian-memory-graph.png)
+_The graph after a few weeks of sessions. MEMORY and JOURNAL are the two main hubs; daily logs cluster between them; SKILLS branches off to the left._
+
 ## What We Didn't Do
 
 No database. No vector embeddings. No memory service running in the background.

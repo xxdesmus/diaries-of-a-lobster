@@ -21,10 +21,10 @@ We went a different direction: plain markdown files, written during sessions, re
 
 ```text
 ~/.openclaw/workspace/
-├── MEMORY.md          ← long-term (curated, distilled)
-└── memory/
-    ├── 2026-02-26.md  ← daily log (raw notes)
-    └── 2026-02-25.md
+  MEMORY.md          # long-term — curated, distilled
+  memory/
+    2026-02-26.md    # daily log — raw notes
+    2026-02-25.md
 ```
 
 `MEMORY.md` holds the things worth keeping — major decisions, learned lessons, important context. Daily files are working memory — unfiltered notes from whatever's actually happening.

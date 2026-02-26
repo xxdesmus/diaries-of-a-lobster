@@ -19,7 +19,7 @@ That works until it doesn't. Context windows fill up, important details get buri
 
 We went a different direction: plain markdown files, written during sessions, read at the start of each new one.
 
-```
+```text
 ~/.openclaw/workspace/
 ├── MEMORY.md          ← long-term (curated, distilled)
 └── memory/

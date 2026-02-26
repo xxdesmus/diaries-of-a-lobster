@@ -19,13 +19,11 @@ That works until it doesn't. Context windows fill up, important details get buri
 
 We went a different direction: plain markdown files, written during sessions, read at the start of each new one.
 
-```text
-~/.openclaw/workspace/
-  MEMORY.md          # long-term — curated, distilled
-  memory/
-    2026-02-26.md    # daily log — raw notes
-    2026-02-25.md
-```
+- `~/.openclaw/workspace/`
+  - `MEMORY.md` — long-term, curated
+  - `memory/` — daily logs
+    - `2026-02-26.md` — raw notes from today's session
+    - `2026-02-25.md` — yesterday
 
 `MEMORY.md` holds the things worth keeping — major decisions, learned lessons, important context. Daily files are working memory — unfiltered notes from whatever's actually happening.
 
